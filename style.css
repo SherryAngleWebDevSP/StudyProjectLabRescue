@@ -1,0 +1,172 @@
+*    {
+  
+     }
+body {
+    width: 1200px;   
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-left: 22px;
+    padding-right: 22px;
+    * {box-sizing: border-box;}
+} 
+.info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;    
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: bold;
+    list-style: none;  
+    background-color: white;
+    color: blue;     
+      }
+    
+  h4  {
+    text-align: center; 
+    color: blue
+    font-size: 12.8px;
+    width: 1200px;
+    height: 22px;
+    
+       
+      } 
+.item-2 {
+      img src="Images/Be a Hero.jpg" 
+         }  
+.container-2 {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  justify-content: center;
+  background-color: blueviolet;
+  overflow: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 1200px;
+  height: 600px;
+  flex-wrap: wrap;
+    }
+#one {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: black;
+    justify-content: flex-start;
+    flex-wrap: wrap 
+     }
+#two {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    border: black;
+    color: black; 
+     }
+#three {
+    display: flex; 
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    border: black;
+    color: blue;
+    font-size: 22pt;    
+      }
+#four { 
+    width: 1420;
+    height: 400;
+    background-color: tan;
+    color: black;
+    align-items: flex-start;
+    justify-content: center;
+      } 
+.item-8
+  img src="Images/newmerch22.jpg"
+.item-9
+  img src="Images/Backend_600x200.jpg"
+.item-10
+.image-box three {
+    img src="Images/Top 10.jpg" 
+    background-color: tan;
+    align-content: center
+      }
+#five {
+    display: flexbox;
+    flex-direction: row;
+    width: 1420;
+    height: 1200px;
+    background-color: tan;
+    color: black;
+    align-items: center;
+      }
+.item-12
+  img src="Images/Matching.jpg"
+    flex-direction: row;
+    border-image: 82px 82px;
+    background-color: tan;
+    align-items: center;
+.container-5
+.item13
+.image-box six image 
+      {
+    img src="Images/Gold Transperancy.jpg">
+    justify-image: center 
+      }
+.item-14
+#six  {
+    flex-direction: row;
+    color:blue;
+    font-size: 22px;
+    justify-content: center; 
+       }
+.item-15
+.item-16
+#seven {
+    flex-direction: row;
+    background-color: tan;
+    color: black;
+    text-align: center;
+      }  
+.item-17
+    img src="Images/Bestofplano22.jpg"  
+    justify-content: center
+    background-color: tan 
+.item-18
+.container-6
+.item-19
+.item-20
+#eight {
+    flex-direction: row;
+    color: 0,0,225;
+    text-align: center:      
+      }
+.item-21
+#nine {
+    flex-direction: row;
+    color: blue;
+    text-align: center;
+      }
+.item-22
+#ten {
+    flex-direction: row;
+    color: black;
+    text-align: center;
+      }
+    
+  
+       
+
+
+
+
+
+
+           
+    
+    
+   
+    
+  
+
+
+
+
