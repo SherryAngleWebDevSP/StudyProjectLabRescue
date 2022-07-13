@@ -2,12 +2,19 @@
   
      }
 body {
-    width: 1200px;   
+    max-width: 1200px;  
+    font-size: 16px; 
     background-repeat: no-repeat;
-    background-position: center center;
-    padding-left: 22px;
-    padding-right: 22px;
-    * {box-sizing: border-box;}
+    background-position: center;
+    padding-left: 140px;
+    padding-right: 140px;
+    text-align: center;  
+    align-items: center;
+    align-self: center;
+    margin: 0px 0px;
+    
+    
+    
 } 
 .info-container {
     display: flex;
@@ -18,139 +25,324 @@ body {
     font-weight: bold;
     list-style: none;  
     background-color: white;
-    color: blue;     
+    color: blue;   
+    
+     
       }
     
   h4  {
     text-align: center; 
-    color: blue
-    font-size: 12.8px;
+    font-size: 22px;
     width: 1200px;
-    height: 22px;
-    
-       
-      } 
+    height: 20px;
+    max-width: 1200;
+    background-attachment: fixed;
+    padding-top: 4px;
+    padding-bottom: 4px;       
+      }  
 .item-2 {
       img src="Images/Be a Hero.jpg" 
-         }  
-.container-2 {
-  display: flex;
-  flex-direction: row;
-  align-content: flex-start;
-  justify-content: center;
-  background-color: blueviolet;
-  overflow: auto;
-  padding-left: 25px;
-  padding-right: 25px;
-  width: 1200px;
-  height: 600px;
-  flex-wrap: wrap;
-    }
-#one {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    border: black;
-    justify-content: flex-start;
-    flex-wrap: wrap 
+      
+}
+
+.equal-height-container 
+        {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex
+    
+        }
+.first
+     {
+    display: flex
+    flex-direction: column
+    flex- 1;
+    background-color: burlywood;
      }
-#two {
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    flex-wrap: wrap;
-    border: black;
-    color: black; 
-     }
-#three {
-    display: flex; 
-    flex-direction: row;
-    align-content: center;
-    flex-wrap: wrap;
-    border: black;
-    color: blue;
-    font-size: 22pt;    
-      }
-#four { 
-    width: 1420;
-    height: 400;
-    background-color: tan;
-    color: black;
+.first-a
+       {
+    background-color: burlywood;
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
     align-items: flex-start;
-    justify-content: center;
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;    
+       } 
+.first-b
+     {
+    width: 500px;
+    height: auto;
+    justify-content: flex-start;
+    text-align: justify;
+    background-color: burlywood;
+    margin: 0 auto;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;  
+  }  
+.second
+      { 
+    background-color: burlywood;
+    flex: 1
+    display: flex
+    flex-direction: column
+    
+      }   
+.second-a
+      {
+     background-color: burlywood;
+     width: 500px;
+     height: auto;
+     align-items: flex-start;
+     text-align: justify;
+     margin: 0 auto;
+     padding-left: 50px;
+     padding-right: 50px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     display: flex;
+     flex-wrap: wrap;
+     flex: 1;  
+      }    
+.second-b
+      {
+     font-size: 22px;
+     font-weight: bold;
+     width: 330px;
+     height: auto;
+     color: blue;
+     background-color: burlywood
+     margin: 0 auto;
+     justify-content: flex-start;
+     padding-right: 270px;
+     padding-top: 30;
+     padding-bottom: 10;
+     flex-wrap: wrap;
+     flex: 1;  
+      }
+ 
+
+.item-3
+     {
+      width: 1180;
+      height: 20px;
+      align-items: center;
+      background-color: burlywood;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-top: -30px;
+      margin-bottom: 20px;
+      }
+.four
+      { 
+      width: 1180px;
+      height: 60px;
+      margin-top: -15px;
+      margin-bottom: -15px;
+      padding-top: 20px;
+      padding-right: 10px;
+      padding-left: 10px;
+      background-color: tan;
+      color: black;
+      align-items: center;
+      align-self: flex-end;
+      justify-content: flex-start;
+      text-align: justify;
+    
       } 
 .item-8
+     {
   img src="Images/newmerch22.jpg"
+      }
 .item-9
+    {
   img src="Images/Backend_600x200.jpg"
+   }
+.flex-container3
+   {
+    width: 1200px;
+    height: 500px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    background-color: tan
+    
+   }
+
 .item-10
-.image-box three {
+   {
     img src="Images/Top 10.jpg" 
-    background-color: tan;
-    align-content: center
       }
-#five {
-    display: flexbox;
-    flex-direction: row;
-    width: 1420;
-    height: 1200px;
-    background-color: tan;
-    color: black;
+.item-11 
+    {
+    color: blue;
+    background-color: burlywood;
+    width: 1200px;
+    height: 60px;
+    
+    
+     }
+.five  
+     {x
+      width: 1140px;
+      height: 60px;
+      margin-top: -20px;
+      margin-bottom: -20px;
+      padding-left: 10px;
+      padding-right: 10px;
+      color: black;
+      background-color: tan;
+      justify-content: flex-start;
+      align-items: center;
+      align-self: center;
+      text-align: justify
+      
+     }  
+.flex-container4 
+   {
+    width: 1200px;
+    height: 378px;
+    padding-top: 20px;
+    justify-content: center;
     align-items: center;
-      }
-.item-12
-  img src="Images/Matching.jpg"
-    flex-direction: row;
-    border-image: 82px 82px;
-    background-color: tan;
+    align-self: center;
+    background-color: tan
+     }
+.item-12 
+    {
+    img src="Images/Matching;
+     } 
+.item-13
+    {
+    width: 1200px;
+    height: 100px;
+    background-color: burlywood;
+    color: blue
+    
+    
+    
+     }
+.flex-container5 
+    {
+    width: 1200px;
+    height: 200px;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
     align-items: center;
-.container-5
-.item13
-.image-box six image 
+    align-self: center;
+    background-color: tan
+    }
+
+.item-14
       {
     img src="Images/Gold Transperancy.jpg">
-    justify-image: center 
-      }
-.item-14
-#six  {
-    flex-direction: row;
-    color:blue;
+       }
+.six  {
+    width: 1200px;
+    height: 60px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: -15px;
+    flex-direction: row; 
+    color: blue;
+    background-color: tan;
     font-size: 22px;
     justify-content: center; 
+    
+       
        }
-.item-15
-.item-16
-#seven {
+.seven {
     flex-direction: row;
+    color: black;
     background-color: tan;
-    color: black;
-    text-align: center;
-      }  
-.item-17
+    width: 1160px;
+    height: 60px;
+    margin-top: -22px;;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    justify-content: flex-start;
+        }
+.flex-container6 {
+    width: 1200px;
+    height: 400px;
+    margin-top: -20px;
+    display: flex;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    background-color: tan
+  } 
+.item-15 {
     img src="Images/Bestofplano22.jpg"  
-    justify-content: center
-    background-color: tan 
-.item-18
-.container-6
-.item-19
-.item-20
-#eight {
-    flex-direction: row;
-    color: 0,0,225;
-    text-align: center:      
-      }
-.item-21
-#nine {
-    flex-direction: row;
+      
+   }
+.item-16         
+   {
     color: blue;
-    text-align: center;
+    background-color: tan;
+    width: 1200px;
+    height: 88px;
+    justify-content: center;
+     }
+.item-17
+    {
+    width: 1200px;
+    height: 20px;
+    background-color: burlywood;
+    }
+.eight
+    {  
+      width: 1200px;
+      height: 10px;
+      color: black;
+      padding-top: 20px;
+      background-color: white;
+      justify-content: center;  
+   
       }
-.item-22
-#ten {
-    flex-direction: row;
-    color: black;
-    text-align: center;
+.nine {
+  width: 1200px;  
+  height: 5px;
+  color: blue;
+  background-color: white;
+  justify-content: center
+    
       }
+.ten {
+  width: 1200px;
+  height: 5px;
+  color: blue;   
+  background-color: white;
+  text-align: center;
+      }
+.eleven {
+  flex-direction: row;
+  width: 1200px;
+  height: 10px;
+  color: black;
+  background-color: white;
+  text-align: center;
+    }
+
     
   
        
